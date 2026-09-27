@@ -1,0 +1,99 @@
+/* ==========================================
+   EVENTO NEOBLOOM
+   ESTILOS GENERALES
+   ========================================== */
+
+
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    min-height: 100%;
+
+}
+
+
+/* ==========================================
+   PÁGINA
+   ========================================== */
+
+body {
+
+    background: #eeeeee;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+}
+
+
+/* ==========================================
+   CONTENEDOR
+   ========================================== */
+
+#contenedor {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-top: 30px;
+
+}
+
+
+/* ==========================================
+   TÍTULO
+   ========================================== */
+
+#titulo {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 28px;
+
+    font-weight: normal;
+
+    color: #222222;
+
+    margin-bottom: 18px;
+
+}
+
+
+/* ==========================================
+   CONTENEDOR DEL JUEGO
+   ========================================== */
+
+#juego {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+/* ==========================================
+   CANVAS
+   ========================================== */
+
+canvas {
+    display: block;
+
+    width: 50vw !important;
+    height: calc(50vw * 0.75) !important;
+
+    border: 2px solid #557da8;
+    box-sizing: border-box;
+}
