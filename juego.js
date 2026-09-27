@@ -25,7 +25,7 @@ const INTERVALO_LUZ = 2000;
 
 // Tiempo durante el cual aparece la predicción
 // antes de que se encienda la próxima luz.
-const TIEMPO_PREDICCION = 1000;
+const TIEMPO_PREDICCION = 1500;
 
 
 // ==========================================================
