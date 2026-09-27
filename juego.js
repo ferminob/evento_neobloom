@@ -18,7 +18,7 @@ const GUANTE_OFFSET_X = 22;
 const GUANTE_OFFSET_Y = 22;
 
 // Tiempo que permanece encendida una luz
-const TIEMPO_LUZ = 660;
+const TIEMPO_LUZ = 800;
 
 // Tiempo entre una luz y la siguiente
 const INTERVALO_LUZ = 2000;
